@@ -2,7 +2,7 @@
 
 This command, based on httpstatuses.com, is an easy to reference database
 of HTTP Status Codes with their definitions and helpful code references all
-in one place. Visit an individual status code via http <code> or browse the list
+in one place. Visit an individual status code via `http <code>` or browse the list
 below.
 
 ```
