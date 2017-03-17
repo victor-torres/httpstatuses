@@ -10,13 +10,13 @@ fi
 
 ARG_LEN=$(echo $1 | wc -c | bc)
 
-if [ $ARG_LEN == '2' ] && [ -f $BASEDIR/$1xx.txt ]
+if [ $ARG_LEN = '2' ] && [ -f $BASEDIR/$1xx.txt ]
   then
     $PAGER $BASEDIR/$1xx.txt
     exit 0
 fi
 
-if [ $ARG_LEN == '4' ] && [ -f $BASEDIR/$1.txt ]
+if [ $ARG_LEN = '4' ] && [ -f $BASEDIR/$1.txt ]
   then
     $PAGER $BASEDIR/$1.txt
     exit 0
