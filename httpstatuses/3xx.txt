@@ -1,0 +1,17 @@
+HTTP STATUS CODES
+
+This command, based on httpstatuses.com, is an easy to reference database
+of HTTP Status Codes with their definitions and helpful code references all
+in one place. Visit an individual status code via http <code> or browse the list
+below.
+
+3×× REDIRECTION
+
+ * 300 Multiple Choices
+ * 301 Moved Permanently
+ * 302 Found
+ * 303 See Other
+ * 304 Not Modified
+ * 305 Use Proxy
+ * 307 Temporary Redirect
+ * 308 Permanent Redirect

@@ -1,0 +1,19 @@
+4xx CLIENT ERROR
+407 PROXY AUTHENTICATION REQUIRED
+
+Similar to 401 Unauthorized, but it indicates that the client needs to
+authenticate itself in order to use a proxy.
+
+The proxy MUST send a Proxy-Authenticate header field [1] containing a
+challenge applicable to that proxy for the target resource. The client MAY
+repeat the request with a new or replaced Proxy-Authorization header field [2].
+
+
+--------------------------------------------------------------------------------
+
+ * Reference 1: Proxy-AuthenticateRFC7235 Section 4.3
+   [http://tools.ietf.org/html/rfc7235#section-4.3]
+ * Reference 2: Proxy-AuthorizationRFC7235 Section 4.4
+   [http://tools.ietf.org/html/rfc7235#section-4.4]
+ * Source: RFC7235 Section 3.2
+   [http://tools.ietf.org/html/rfc7235#section-3.2]

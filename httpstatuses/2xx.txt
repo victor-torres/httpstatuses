@@ -1,0 +1,19 @@
+HTTP STATUS CODES
+
+This command, based on httpstatuses.com, is an easy to reference database
+of HTTP Status Codes with their definitions and helpful code references all
+in one place. Visit an individual status code via http <code> or browse the list
+below.
+
+2×× SUCCESS
+
+ * 200 OK
+ * 201 Created
+ * 202 Accepted
+ * 203 Non-authoritative Information
+ * 204 No Content
+ * 205 Reset Content
+ * 206 Partial Content
+ * 207 Multi-Status
+ * 208 Already Reported
+ * 226 IM Used

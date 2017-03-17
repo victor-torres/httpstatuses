@@ -1,0 +1,18 @@
+4xx CLIENT ERROR
+444 CONNECTION CLOSED WITHOUT RESPONSE
+
+A non-standard status code used to instruct nginx [http://nginx.org] to close
+the connection without sending a response to the client, most commonly used to
+deny malicious or malformed requests.
+
+This status code is not seen by the client, it only appears in nginx log files.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: nginx documentation
+   [http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return]
+
+
+
+

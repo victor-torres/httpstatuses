@@ -1,0 +1,10 @@
+4xx CLIENT ERROR
+402 PAYMENT REQUIRED
+
+Reserved for future use.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: RFC7231 Section 6.5.2
+   [http://tools.ietf.org/html/rfc7231#section-6.5.2]

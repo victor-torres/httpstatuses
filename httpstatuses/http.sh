@@ -1,0 +1,26 @@
+#!/bin/sh
+PAGER='less'
+BASEDIR=$(dirname "$0")
+
+if [ $# -eq 0 ]
+  then
+    $PAGER $BASEDIR/index.txt
+    exit 0
+fi
+
+ARG_LEN=$(echo $1 | wc -c | bc)
+
+if [ $ARG_LEN == '2' ] && [ -f $BASEDIR/$1xx.txt ]
+  then
+    $PAGER $BASEDIR/$1xx.txt
+    exit 0
+fi
+
+if [ $ARG_LEN == '4' ] && [ -f $BASEDIR/$1.txt ]
+  then
+    $PAGER $BASEDIR/$1.txt
+    exit 0
+fi
+
+echo "Invalid HTTP Status Code."
+exit 1

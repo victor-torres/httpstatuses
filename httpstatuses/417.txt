@@ -1,0 +1,13 @@
+4xx CLIENT ERROR
+417 EXPECTATION FAILED
+
+The expectation given in the request's Expect header field [1] could not
+be met by at least one of the inbound servers.
+
+
+--------------------------------------------------------------------------------
+
+ * Reference 1: Expect RFC7231 Section 5.1.1
+   [http://tools.ietf.org/html/rfc7231#section-5.1.1]
+ * Source: RFC7231 Section 6.5.14
+   [http://tools.ietf.org/html/rfc7231#section-6.5.14]

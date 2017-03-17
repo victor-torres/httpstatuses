@@ -1,0 +1,12 @@
+5xx SERVER ERROR
+506 VARIANT ALSO NEGOTIATES
+
+The server has an internal configuration error: the chosen variant resource is
+configured to engage in transparent content negotiation itself, and is therefore
+not a proper end point in the negotiation process.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: RFC2295 Section 8.1
+   [http://tools.ietf.org/html/rfc2295#section-8.1]

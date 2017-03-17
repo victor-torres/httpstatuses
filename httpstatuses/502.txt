@@ -1,0 +1,11 @@
+5xx SERVER ERROR
+502 BAD GATEWAY
+
+The server, while acting as a gateway or proxy, received an invalid response
+from an inbound server it accessed while attempting to fulfill the request.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: RFC7231 Section 6.6.3
+   [http://tools.ietf.org/html/rfc7231#section-6.6.3]

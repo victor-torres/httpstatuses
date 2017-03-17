@@ -1,0 +1,14 @@
+4xx CLIENT ERROR
+415 UNSUPPORTED MEDIA TYPE
+
+The origin server is refusing to service the request because the payload is in a
+format not supported by this method on the target resource.
+
+The format problem might be due to the request's indicated Content-Type or
+Content-Encoding, or as a result of inspecting the data directly.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: RFC7231 Section 6.5.13
+   [http://tools.ietf.org/html/rfc7231#section-6.5.13]

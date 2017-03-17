@@ -1,0 +1,15 @@
+3xx REDIRECTION
+305 USE PROXY
+
+Defined in a previous version of this specification and is now deprecated, due
+to security concerns regarding in-band configuration of a proxy.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: RFC7231 Section 6.4.5
+   [http://tools.ietf.org/html/rfc7231#section-6.4.5]
+
+
+
+

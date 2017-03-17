@@ -1,0 +1,13 @@
+4xx CLIENT ERROR
+423 LOCKED
+
+The source or destination resource of a method is locked.
+
+This response SHOULD contain an appropriate precondition or postcondition code,
+such as 'lock-token-submitted' or 'no-conflicting-lock'.
+
+
+--------------------------------------------------------------------------------
+
+ * Source: RFC4918 Section 11.3
+   [http://tools.ietf.org/html/rfc4918#section-11.3]

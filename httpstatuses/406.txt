@@ -1,0 +1,23 @@
+4xx CLIENT ERROR
+406 NOT ACCEPTABLE
+
+The target resource does not have a current representation that would be
+acceptable to the user agent, according to the proactive negotiation header
+fields received in the request [1], and the server is unwilling to supply
+a default representation.
+
+The server SHOULD generate a payload containing a list of available
+representation characteristics and corresponding resource identifiers from which
+the user or user agent can choose the one most appropriate. A user agent MAY
+automatically select the most appropriate choice from that list. However, this
+specification does not define any standard for such automatic selection, as
+described in RFC7231 Section 6.4.1
+[http://tools.ietf.org/html/rfc7231#section-6.4.1].
+
+
+--------------------------------------------------------------------------------
+
+ * Reference 1: Content NegotiationRFC7231 Section 5.3
+   [http://tools.ietf.org/html/rfc7231#section-5.3]
+ * Source: RFC7231 Section 6.5.6
+   [http://tools.ietf.org/html/rfc7231#section-6.5.6]
