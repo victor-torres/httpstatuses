@@ -6,6 +6,7 @@ in one place. Visit an individual status code via `http <code>` or browse the li
 below.
 
 ```
+$ # Available commands
 $ http          # shows index
 $ http 2        # shows 2xx index
 $ http 200      # shows 200 page
